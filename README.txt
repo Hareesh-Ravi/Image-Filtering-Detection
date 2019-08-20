@@ -1,4 +1,20 @@
-example usage
+# Image Filtering Detection
+This repository has the code to process and extract features outlined in "Spatial domain quantization noise based image filtering detection". This paper addresses the problem of identifying forged or manipulated images that have been filtered using the added noise during compression process.  
+
+
+## Reference
+```
+@INPROCEEDINGS{Ravi_2015_ICIP, 
+author={H. {Ravi} and A. V. {Subramanyam} and S. {Emmanuel}}, 
+booktitle={2015 IEEE International Conference on Image Processing (ICIP)}, 
+title={Spatial domain quantization noise based image filtering detection}, 
+year={2015}, 
+pages={1180-1184}, 
+doi={10.1109/ICIP.2015.7350986}, 
+month={Sep.},}
+```
+
+## Instructions
 ------------------------------------------------------------------------------
 Image = imread('ucid00001.tif'); 
 imwrite(Image,'jff.jpg','Quality',70);
@@ -15,9 +31,6 @@ Finalfeat = extract_TPM(noise,'truncate',15)
    For eg, for general denoising purposes, weight 1 is better wheras to extarct effective compression noise
    weight 5 is better as mentioned in the following paper. Please cite the following paper if you use this.
 
-   Ravi, H., Subramanyam, A. V., Emmanuel, S.,"Spatial Domain Quantization Noise based Image Filtering Detection",
-   in Proc. IEEE International Conference on Image Processing (ICIP), Sep 2015.
-
 3. "Final feat" gives you the final feature vector to be used for SVM training and testing.
    'extract_TPM.m' and the instructions to use the same are provided in the code as comments. The code extracts 
    only first order dependencies and it is not optimized. The code was written just using inbuilt commands.
@@ -32,6 +45,4 @@ Finalfeat = extract_TPM(noise,'truncate',15)
 whereas 'truncate' choice was used in the paper
 " Ravi, H., Subramanyam, A. V., Emmanuel, S., Spatial Domain Quantization noise based Image Filtering Detection, 
   in Proc. IEEE International Conference on Image Processing (ICIP), Sep 2015." 
-
-
-For any other doubts, please mail 'haree.24@gmail.com'. 
+ 
