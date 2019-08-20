@@ -4,6 +4,27 @@ This repository has the code to process and extract features outlined in "Spatia
 
 ## Reference
 ```
+@article{Ravi:2016:FAL:2901366.2857069,
+ author = {Ravi, Hareesh and Subramanyam, A. V. and Emmanuel, Sabu},
+ title = {Forensic Analysis of Linear and Nonlinear Image Filtering Using Quantization Noise},
+ journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+ issue_date = {June 2016},
+ volume = {12},
+ number = {3},
+ month = mar,
+ year = {2016},
+ issn = {1551-6857},
+ pages = {39:1--39:23},
+ articleno = {39},
+ numpages = {23},
+ url = {http://doi.acm.org/10.1145/2857069},
+ doi = {10.1145/2857069},
+ acmid = {2857069},
+ publisher = {ACM}
+} 
+```
+or
+```
 @INPROCEEDINGS{Ravi_2015_ICIP, 
 author={H. {Ravi} and A. V. {Subramanyam} and S. {Emmanuel}}, 
 booktitle={2015 IEEE International Conference on Image Processing (ICIP)}, 
