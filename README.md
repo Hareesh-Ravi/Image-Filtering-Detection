@@ -15,13 +15,13 @@ month={Sep.},}
 ```
 
 ## Instructions
-------------------------------------------------------------------------------
+```
 Image = imread('ucid00001.tif'); 
 imwrite(Image,'jff.jpg','Quality',70);
 JpgImage = imread('jff.jpg');
 [denoisedimage,noise]=noise_finalone(JpgImage,70,1,10);
 Finalfeat = extract_TPM(noise,'truncate',15)
-------------------------------------------------------------------------------
+```
 1. Main function is 'noise_finalone.m'
    This function extracts compression noise and hence the quality factor of the JPEG image
    which is denoised is assumed to be known. Each function has necessary comments and instructions
