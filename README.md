@@ -23,6 +23,7 @@ This repository has the code to process and extract features outlined in "Spatia
  publisher = {ACM}
 } 
 ```
+[PDF](https://dl.acm.org/citation.cfm?id=2857069)
 or
 ```
 @INPROCEEDINGS{Ravi_2015_ICIP, 
@@ -34,6 +35,7 @@ pages={1180-1184},
 doi={10.1109/ICIP.2015.7350986}, 
 month={Sep.},}
 ```
+[PDF](https://ieeexplore.ieee.org/document/7350986)
 
 ## Instructions
 ```
